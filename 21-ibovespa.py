@@ -1,0 +1,21 @@
+import pyautogui
+import time
+
+pyautogui.press('winleft')
+time.sleep(1)
+pyautogui.write('chrome')
+time.sleep(1)
+pyautogui.press('enter')
+time.sleep(1)
+pyautogui.moveTo(1688, 136, 0.5)
+time.sleep(1)
+pyautogui.click()
+pyautogui.moveTo(423, 62, 0.5)
+time.sleep(1)
+pyautogui.click()
+time.sleep(1)
+pyautogui.write('ibovespa hoje')
+time.sleep(1)
+pyautogui.press('enter')
+time.sleep(1)
+pyautogui.screenshot('ibovespa.png')
